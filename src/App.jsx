@@ -1,10 +1,7 @@
 import React from 'react';
 import './index.css';
-
 import { BrowserRouter } from 'react-router-dom';
-
 import AllRoutes from './components/routes';
-
 function App() {
   return (
     <BrowserRouter>
@@ -12,5 +9,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;
